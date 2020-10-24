@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: resources.CucumberTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 8.539 s <<< FAILURE! - in resources.CucumberTest
-El cliente hace la llamada POST /login a la API #1  Time elapsed: 4.315 s  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 8.578 s <<< FAILURE! - in resources.CucumberTest
+El cliente hace la llamada POST /login a la API #1  Time elapsed: 4.424 s  <<< ERROR!
 java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
 
-El cliente hace la llamada POST /login a la API #2  Time elapsed: 4.057 s  <<< ERROR!
+El cliente hace la llamada POST /login a la API #2  Time elapsed: 4.041 s  <<< ERROR!
 java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
 

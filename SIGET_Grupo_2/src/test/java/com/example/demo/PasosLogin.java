@@ -31,28 +31,35 @@ public class PasosLogin extends SigetGrupo2ApplicationTest{
 		MediaType mediaType = MediaType.parse("text/plain");
 		RequestBody body = RequestBody.create(mediaType, "");
 		request = new Request.Builder()
-				.url("http://localhost:8080/usuarios/login?username="+ username + "&password=" + password)
-				.method("POST", body)
-				.build();
+		          .url("http://localhost:8080/usuarios/login?username="+ username + "&password=" + password)
+		          .post(body)
+		          .addHeader("Content-Type", "application/json")
+		          .addHeader("User-Agent", "PostmanRuntime/7.19.0")
+		          .addHeader("Accept", "*/*")
+		          .addHeader("Cache-Control", "no-cache")
+		          .addHeader("Postman-Token", "026c8d66-5ccb-453f-b1b4-c6f351f126ee,ca3db196-6148-4d81-a889-94d79002afe4")
+		          .addHeader("Accept-Encoding", "gzip, deflate")
+		          .addHeader("Content-Length", "84")
+		          .addHeader("Connection", "keep-alive")
+		          .addHeader("cache-control", "no-cache")
+		          .build();
 	}
 	@Then("el cliente recibe la respuesta de que el login es {string}")
 	public void el_cliente_recibe_la_respuesta_de_que_el_login_es_correcto(String correcto) throws IOException, JSONException {
 		try {
 			Response response = client.newCall(request).execute();
 		    String body= response.body().string();
-		    System.out.println(response.toString());
-		    JSONObject jsonObject = new JSONObject(body);
 			if(correcto.equals("True")) {
-		      if(jsonObject.get("type").equals("error")) {
+		      if(body.equals("false")) {
 		        fail("La respuesta da error pero debería ser afirmativa");
 		      }
 		    }else{
-		      if(!jsonObject.get("type").equals("error")) {
+		      if(body.equals("true")) {
 		        fail("La respuesta es afirmativa pero debería dar error");
 		      }
 		    }
 		}catch(Exception e){
-			//e.printStackTrace();
+			e.printStackTrace();
 		    fail("Error en la llamada http");
 		}
 	}

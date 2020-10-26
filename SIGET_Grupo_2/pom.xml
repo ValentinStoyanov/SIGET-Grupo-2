@@ -31,7 +31,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
@@ -41,41 +40,37 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
-
-
 	<!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
-	<dependency>
+		<dependency>
 		    <groupId>org.mongodb</groupId>
 		    <artifactId>mongo-java-driver</artifactId>
 		    <version>3.12.7</version>
 		</dependency>
-	
 		<dependency>
-			<groupId> info.cukes </groupId>
-			<artifactId>cucumber-java</artifactId>
-			<version> 1.2.5 </version>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-java</artifactId>
+		    <version>6.8.0</version>
+		    <scope>test</scope>
+		</dependency>
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-junit</artifactId>
+		    <version>6.8.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-spring</artifactId>
+		    <version>6.8.0</version>
+		    <scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.squareup.okhttp/okhttp -->
+		<dependency>
+		    <groupId>com.squareup.okhttp</groupId>
+		    <artifactId>okhttp</artifactId>
+		    <version>2.7.5</version>
 		</dependency>
 		
-		<dependency>
-			<groupId> info.cukes </groupId>
-			<artifactId>cucumber-testng</artifactId>
-			<version> 1.2.5 </version>
-		</dependency>
-		
-		<dependency>
-			<groupId> info.cukes </groupId>
-			<artifactId>cucumber-junit</artifactId>
-			<version> 1.2.5 </version>
-		</dependency>
-	
-	
 	</dependencies>
 
 

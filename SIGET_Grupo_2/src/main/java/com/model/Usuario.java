@@ -1,29 +1,32 @@
 package com.model;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "Usuario")
 public class Usuario {
-	private String usuario;
-	private String contraseña;
+	private String username;
+	private String password;
 	
-	public Usuario(String usuario, String contraseña) {
+	public Usuario(String username, String password) {
 		super();
-		this.usuario = usuario;
-		this.contraseña = contraseña;
+		this.username = username;
+		this.password = password;
 	}
 
-	public String getUsuario() {
-		return usuario;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setUsuario(String usuario) {
-		this.usuario = usuario;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
-	public String getContraseña() {
-		return contraseña;
+	public String getPassword() {
+		return password;
 	}
 
-	public void setContraseña(String contraseña) {
-		this.contraseña = contraseña;
+	public void setPassword(String password) {
+		this.password = password;
 	}
 	
 }

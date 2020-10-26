@@ -9,5 +9,5 @@ import com.model.Usuario;
 
 @Repository
 public interface UsuarioRepository extends MongoRepository<Usuario, String> {
-	Optional<Usuario> findOneBy_id(String id);
+	Optional<Usuario> findOneByUsernameAndPassword(String username, String password);
 }

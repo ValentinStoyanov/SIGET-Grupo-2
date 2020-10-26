@@ -1,5 +1,12 @@
 package com.example.demo;
 
+import static org.junit.Assert.fail;
+
+import java.io.IOException;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
@@ -11,29 +18,42 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class PasosLogin extends SigetGrupo2ApplicationTest{
+	private OkHttpClient client;
+	private Request request;
 	
-	@Given("el usuario está registrado en la base de datos")
-	public void usuarioRegistrado() throws Throwable{
-	    /*Comprobar que el usuario con nombre name1 y contraseña pass1 está en la base de datos*/
-		System.out.println("Entra al Given");
+	@Given("el usuario intenta logearse")
+	public void el_usuario_intenta_logearse() {
+	    System.out.println("Usuario intentado logearse...");
 	}
-	
-	@When("el servidor recibe la llamada POST \\/login")
-	public void llamadaLogin() throws Throwable{
-		OkHttpClient client = new OkHttpClient();
+	@When("el cliente hace la llamada POST \\/login con los parámetros username {string} y password {string}")
+	public void el_cliente_hace_la_llamada_post_login_con_los_parámetros_username_y_password(String username, String password) throws IOException {
+		client = new OkHttpClient();
 		MediaType mediaType = MediaType.parse("text/plain");
-		MediaType JSON = MediaType.parse("application/json; charset=utf-8");
-		RequestBody body = RequestBody.create(JSON, "{}");
-		Request request = new Request.Builder()
-				.url("http://localhost:8080/login?username=name&password=pass1 ")
+		RequestBody body = RequestBody.create(mediaType, "");
+		request = new Request.Builder()
+				.url("http://localhost:8080/usuarios/login?username="+ username + "&password=" + password)
 				.method("POST", body)
 				.build();
-		Response response = client.newCall(request).execute();
-		System.out.println(response);
 	}
-	 
-	@Then("el cliente recibe la respuesta de que el login es correcto")
-	public void respuestaLogin() throws Throwable {
-		System.out.println("Entra al Then");
+	@Then("el cliente recibe la respuesta de que el login es {string}")
+	public void el_cliente_recibe_la_respuesta_de_que_el_login_es_correcto(String correcto) throws IOException, JSONException {
+		try {
+			Response response = client.newCall(request).execute();
+		    String body= response.body().string();
+		    System.out.println(response.toString());
+		    JSONObject jsonObject = new JSONObject(body);
+			if(correcto.equals("True")) {
+		      if(jsonObject.get("type").equals("error")) {
+		        fail("La respuesta da error pero debería ser afirmativa");
+		      }
+		    }else{
+		      if(!jsonObject.get("type").equals("error")) {
+		        fail("La respuesta es afirmativa pero debería dar error");
+		      }
+		    }
+		}catch(Exception e){
+			//e.printStackTrace();
+		    fail("Error en la llamada http");
+		}
 	}
 }

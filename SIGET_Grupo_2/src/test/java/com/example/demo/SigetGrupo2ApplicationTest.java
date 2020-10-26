@@ -9,8 +9,4 @@ import io.cucumber.spring.CucumberContextConfiguration;
 @SpringBootTest
 public class SigetGrupo2ApplicationTest {
 
-	@Test
-	public void testeoJunit() {
-		System.out.println("Entra al test");
-	}
 }

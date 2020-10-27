@@ -1,9 +1,12 @@
 package com.model;
 
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "Usuario")
 public class Usuario {
+	
 	private String username;
 	private String password;
 	
@@ -28,5 +31,7 @@ public class Usuario {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
+
 	
 }

@@ -1,44 +1,67 @@
 package com.model;
 
-import java.io.Serializable;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "Tarea")
-public class Reunion implements Serializable{
-	private String _id;
-	private String contenido;
-	private boolean completada;
+@Document(collection = "Reuniones")
+public class Reunion {
 	
-	public Reunion(String _id, String contenido, boolean completada) {
+
+	private String temas;
+	private String descripcion;
+	private String hora_inicio;
+	private String hora_fin;
+	private String asistentes;
+	
+	public Reunion(String temas, String descripcion, String hora_inicio, String hora_fin, String asistentes) {
 		super();
-		this._id = _id;
-		this.contenido = contenido;
-		this.completada = completada;
+		this.temas = temas;
+		this.descripcion = descripcion;
+		this.hora_inicio = hora_inicio;
+		this.hora_fin = hora_fin;
+		this.asistentes = asistentes;
 	}
 
-	public String get_id() {
-		return _id;
+	public String getTemas() {
+		return temas;
 	}
 
-	public void set_id(String _id) {
-		this._id = _id;
+	public void setTemas(String temas) {
+		this.temas = temas;
 	}
 
-	public String getContenido() {
-		return contenido;
+	public String getDescripcion() {
+		return descripcion;
 	}
 
-	public void setContenido(String contenido) {
-		this.contenido = contenido;
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
 	}
 
-	public boolean isCompletada() {
-		return completada;
+	public String getHora_inicio() {
+		return hora_inicio;
 	}
 
-	public void setCompletada(boolean completada) {
-		this.completada = completada;
+	public void setHora_inicio(String hora_inicio) {
+		this.hora_inicio = hora_inicio;
 	}
+
+	public String getHora_fin() {
+		return hora_fin;
+	}
+
+	public void setHora_fin(String hora_fin) {
+		this.hora_fin = hora_fin;
+	}
+
+	public String getAsistentes() {
+		return asistentes;
+	}
+
+	public void setAsistentes(String asistentes) {
+		this.asistentes = asistentes;
+	}
+
+	
 	
 }

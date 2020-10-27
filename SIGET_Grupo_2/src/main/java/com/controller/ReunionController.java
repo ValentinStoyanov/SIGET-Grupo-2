@@ -30,20 +30,25 @@ import com.persistence.ReunionRepository;
 	    }
 		
 		@GetMapping("get")
-	    public Optional<Reunion> get(@RequestParam(name = "id") String id){
-	        Optional<Reunion> tarea = this.reunionRepository.findOneBy_id(id);
+	    public Optional<Reunion> get(@RequestParam(name = "asistentes") String asistentes){
+	        Optional<Reunion> tarea = this.reunionRepository.findOneByAsistentes(asistentes);
 
 	        return tarea;
 	    }
 		
 		@PostMapping("create")
-	    public Reunion create(@RequestParam(name = "id") String id, @RequestParam(name = "contenido") String contenido, @RequestParam(name = "completada") boolean completada){
-			Reunion reunion = this.reunionRepository.insert(new Reunion(id, contenido, completada));
+	    public Reunion create(@RequestParam(name = "temas") String temas,
+	    		@RequestParam(name = "descripcion") String descripcion,
+	    		@RequestParam(name = "hora_inicio") String hora_inicio,
+	    		@RequestParam(name = "hora_fin") String hora_fin,
+	    		@RequestParam(name = "asistentes") String asistentes){
+			Reunion reunion = this.reunionRepository.insert(new Reunion(temas,descripcion,hora_inicio,
+					hora_fin,asistentes));
 
 	        return reunion;
 	    }
 		
-		@PutMapping("update")
+		/*@PutMapping("update")
 	    public boolean update(@RequestParam(name = "id") String id, @RequestParam(name = "contenido") String contenido, @RequestParam(name = "completada") boolean completada){
 	        if(this.reunionRepository.existsById(id)) {
 	        	this.reunionRepository.deleteById(id);
@@ -60,5 +65,5 @@ import com.persistence.ReunionRepository;
 	        	return true;
 	        }
 	        return false;
-	    }
+	    }*/
 }

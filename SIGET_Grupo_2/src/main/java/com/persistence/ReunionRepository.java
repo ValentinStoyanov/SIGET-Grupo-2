@@ -9,5 +9,5 @@ import com.model.Reunion;
 
 @Repository
 public interface ReunionRepository extends MongoRepository<Reunion, String> {
-	Optional<Reunion> findOneBy_id(String id);
+	Optional<Reunion> findOneByAsistentes(String asistentes);
 }

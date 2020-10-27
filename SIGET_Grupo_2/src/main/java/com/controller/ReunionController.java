@@ -31,9 +31,9 @@ import com.persistence.ReunionRepository;
 		
 		@GetMapping("get")
 	    public Optional<Reunion> get(@RequestParam(name = "asistentes") String asistentes){
-	        Optional<Reunion> tarea = this.reunionRepository.findOneByAsistentes(asistentes);
+	        Optional<Reunion> reunion = this.reunionRepository.findOneByAsistentes(asistentes);
 
-	        return tarea;
+	        return reunion;
 	    }
 		
 		@PostMapping("create")
@@ -56,14 +56,17 @@ import com.persistence.ReunionRepository;
 	        	return true;
 	        }
 	        return false;
-	    }
+	    }*/
 		
 		@PostMapping("delete")
-	    public boolean delete(@RequestParam(name = "id") String id){
-	        if(this.reunionRepository.existsById(id)) {
-	        	this.reunionRepository.deleteById(id);
+	    public boolean delete(@RequestParam(name = "asistentes") String asistentes){
+			
+			Optional<Reunion> reunion = this.reunionRepository.findOneByAsistentes(asistentes);
+			
+	        if(!reunion.isEmpty()) {
+	        	this.reunionRepository.deleteByAsistentes(asistentes);
 	        	return true;
 	        }
 	        return false;
-	    }*/
+	    }
 }

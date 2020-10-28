@@ -1,6 +1,7 @@
 package com.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -31,12 +32,26 @@ public class CalendarioController {
 	
 	
 	@PostMapping("create")
-    public Calendario create(@RequestParam(name = "hora_inicio") String hora_inicio,
-    		@RequestParam(name = "hora_fin") String hora_fin,
-    		@RequestParam(name = "enlace_reunion") String enlace_reunion){
+    public Calendario create(@RequestParam(name = "horainicio") String horainicio,
+    		@RequestParam(name = "horafin") String horafin,
+    		@RequestParam(name = "enlace") String enlace){
 		
-		Calendario cal = this.calendarioRepository.insert(new Calendario(hora_inicio,hora_fin,enlace_reunion));
+		Calendario cal = this.calendarioRepository.insert(new Calendario(horainicio,horafin,enlace));
 
         return cal;
     }
+	
+	@PostMapping("delete")
+    public boolean delete(@RequestParam(name = "horainicio") String horainicio){
+		
+		Optional<Calendario> cal = this.calendarioRepository.findByHorainicio(horainicio);
+		
+        if(!cal.isEmpty()) {
+        	this.calendarioRepository.deleteByHorainicio(horainicio);
+        	return true;
+        }
+        return false;
+    }
+	
+	
 }

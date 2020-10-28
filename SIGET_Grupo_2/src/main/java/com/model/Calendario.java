@@ -6,46 +6,49 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Calendario {
 	
 
-	private String hora_inicio;
-	private String hora_fin;
-	private String enlace_reunion;
+	private String horainicio;
+	private String horafin;
+	private String enlace;
 	
 	
-	public Calendario(String hora_inicio, String hora_fin, String enlace_reunion) {
+	public Calendario(String horainicio, String horafin, String enlace) {
 		super();
-		this.hora_inicio = hora_inicio;
-		this.hora_fin = hora_fin;
-		this.enlace_reunion = enlace_reunion;
+		this.horainicio = horainicio;
+		this.horafin = horafin;
+		this.enlace = enlace;
 	}
 
 
-	public String getHora_inicio() {
-		return hora_inicio;
+	public String getHorainicio() {
+		return horainicio;
 	}
 
 
-	public void setHora_inicio(String hora_inicio) {
-		this.hora_inicio = hora_inicio;
+	public void setHorainicio(String horainicio) {
+		this.horainicio = horainicio;
 	}
 
 
-	public String getHora_fin() {
-		return hora_fin;
+	public String getHorafin() {
+		return horafin;
 	}
 
 
-	public void setHora_fin(String hora_fin) {
-		this.hora_fin = hora_fin;
+	public void setHorafin(String horafin) {
+		this.horafin = horafin;
 	}
 
 
-	public String getEnlace_reunion() {
-		return enlace_reunion;
+	public String getEnlace() {
+		return enlace;
 	}
 
 
-	public void setEnlace_reunion(String enlace_reunion) {
-		this.enlace_reunion = enlace_reunion;
+	public void setEnlace(String enlace) {
+		this.enlace = enlace;
 	}
+
+
+	
 
 }

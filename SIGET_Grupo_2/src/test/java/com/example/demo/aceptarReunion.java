@@ -20,15 +20,14 @@ import io.cucumber.java.en.When;
 public class aceptarReunion extends SigetGrupo2ApplicationTest{
 	private OkHttpClient client;
 	private Request request;
-
-
 	
 	@Given("El usuario intenta aceptar la reunion")
 	public void el_usuario_intenta_aceptar_reunion() {
 	    System.out.println("El usuairo no ha aceptardo la reunion...");
 	}
-	@When("El usuario acepta la llamada POST temas {string}, descripcion {string}, hora_inicio {string}, hora_fin {string}, asistentes {string}, convocantes {string}")
-	public void el_usuairo_acepta_la_llamada_POST_con_los_parámetros_temas_descripcion_hora_inicio_hora_fin_asistentes_convocantes(String temas, String descripcion, String hora_inicio, String hora_fin, String asistentes, String convocantes) throws IOException {
+	
+	@When("El usuario acepta la llamada al post para aceptar la reunion {string}, {string}, {string}, {string}, {string}, {string}")
+	public void el_usuario_acepta_la_llamada_al_post_para_aceptar_la_reunion(String temas, String descripcion, String hora_inicio, String hora_fin, String asistentes, String convocantes) throws IOException {
 		client = new OkHttpClient();
 		MediaType mediaType = MediaType.parse("text/plain");
 		RequestBody body = RequestBody.create(mediaType, "");
@@ -37,7 +36,7 @@ public class aceptarReunion extends SigetGrupo2ApplicationTest{
 		          .post(body)
 		          .addHeader("Content-Type", "application/json")
 		          .addHeader("User-Agent", "PostmanRuntime/7.19.0")
-		          .addHeader("Accept", "*/*")
+		          .addHeader("Accept", "/")
 		          .addHeader("Cache-Control", "no-cache")
 		          .addHeader("Postman-Token", "026c8d66-5ccb-453f-b1b4-c6f351f126ee,ca3db196-6148-4d81-a889-94d79002afe4")
 		          .addHeader("Accept-Encoding", "gzip, deflate")
@@ -46,8 +45,9 @@ public class aceptarReunion extends SigetGrupo2ApplicationTest{
 		          .addHeader("cache-control", "no-cache")
 		          .build();
 	}
-	@Then("el cliente recibe la respuesta de que el login es {string}")
-	public void el_usuario_recibe_la_respuesta_de_aceptar_la_reunion(String correcto) throws IOException, JSONException {
+	
+	@Then("El usuario recibe que la reunion ha sido aceptada {string}")
+	public void el_usuario_recibe_que_la_reunion_ha_sido_aceptada(String correcto) throws IOException, JSONException {
 		try {
 			Response response = client.newCall(request).execute();
 		    String body= response.body().string();
@@ -66,5 +66,4 @@ public class aceptarReunion extends SigetGrupo2ApplicationTest{
 		}
 	}
 }
-
 

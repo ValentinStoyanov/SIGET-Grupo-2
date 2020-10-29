@@ -4,11 +4,11 @@ Feature: La reunion se ha aceptado correctamente
   
   Scenario Outline: El cliente llama al post de aceptar la reunion 
     Given El usuario intenta aceptar la reunion
-    When El usuario acepta la llama al post para aceptar la reunion "<temas>", "<descripcion>", "<hora_inicio>", "<hora_fin>", "<asistentes>", "<convocante>"  
+    When El usuario acepta la llamada al post para aceptar la reunion "<temas>", "<descripcion>", "<hora_inicio>", "<hora_fin>", "<asistentes>", "<convocante>"  
   	Then El usuario recibe que la reunion ha sido aceptada "<correcto>" 
 
     Examples: 
-      | Temas | Descripcion | Hora_Inicio | Hora_Fin  | Asistentes | Convocante  | Correcto |
+      | temas | descripcion | hora_inicio | hora_fin  | asistentes | convocante  | correcto |
       | Tema1 |     Desc1   | HIni1       | HFin1     | Asist1     | Conv1       | True     |
       | Tema2 |     Desc2   | HIni2       | HFin2     | Asist2     | Conv2       | True     |
       | Tema3 |     Desc3   | HIni3       | HFin3     | Asist3     | Conv3       | True     |    

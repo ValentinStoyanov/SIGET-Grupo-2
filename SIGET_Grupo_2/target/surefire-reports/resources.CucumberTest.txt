@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: resources.CucumberTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.715 s - in resources.CucumberTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.641 s <<< FAILURE! - in resources.CucumberTest
+El cliente llama al post de aceptar la reunion #1  Time elapsed: 2.612 s  <<< ERROR!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in com.example.demo.PasosLogin.el_cliente_recibe_la_respuesta_de_que_el_login_es_correcto(java.lang.String) and com.example.demo.aceptarReunion.el_usuario_recibe_la_respuesta_de_aceptar_la_reunion(java.lang.String)
+
+resources.CucumberTest  Time elapsed: 2.622 s  <<< ERROR!
+org.junit.runner.notification.StoppedByUserException
+

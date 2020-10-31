@@ -10,6 +10,9 @@ import com.model.Reunion;
 
 @Repository
 public interface ReunionRepository extends MongoRepository<Reunion, String> {
+	
+	List<Reunion> findByAsistentesIn(String asistentes);
+	
 	Optional<Reunion> findOneByConvocante(String convocante);
 	
 	List<Reunion> findByConvocante(String convocante);

@@ -25,7 +25,7 @@ public class UsuarioController {
 
 	@PostMapping("login")
 	public boolean login(@RequestParam(name = "username") String username, @RequestParam(name = "password") String password){
-		if(!this.usuarioRepository.findOneByUsernameAndPassword(username, password).isEmpty()) {
+		if(!this.usuarioRepository.findOneByUsernameAndPassword(username, password).equals(null)) {
 			return true;
 		}
 		return false;

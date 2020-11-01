@@ -67,7 +67,7 @@ import com.persistence.ReunionRepository;
 			
 			Optional<Reunion> reunion = this.reunionRepository.findOneByConvocante(convocante);
 			
-	        if(!reunion.isEmpty()) {
+	        if(!reunion.equals(null)) {
 	        	this.reunionRepository.deleteByConvocante(convocante);
 	        	return true;
 	        }

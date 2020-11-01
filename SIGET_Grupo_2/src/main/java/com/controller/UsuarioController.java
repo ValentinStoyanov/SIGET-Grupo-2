@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -37,5 +38,25 @@ public class UsuarioController {
         return r;
     }
 	
+	
+
+	@PutMapping("update")
+    public boolean update(@RequestParam(name = "username") String username, @RequestParam(name = "password") String password){
+        if(this.usuarioRepository.existsById(username)) {
+        	this.usuarioRepository.deleteById(username);
+        	this.usuarioRepository.insert(new Usuario(username, password));
+        	return true;
+        }
+        return false;
+    }
+	
+	@PostMapping("delete")
+    public boolean delete(@RequestParam(name = "username") String username){
+        if(this.usuarioRepository.existsById(username)) {
+        	this.usuarioRepository.deleteById(username);
+        	return true;
+        }
+        return false;
+    }
 	
 }

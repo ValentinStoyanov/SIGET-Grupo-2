@@ -31,13 +31,13 @@ import com.persistence.ReunionRepository;
 	        return reunion;
 	    }
 		
-		
 		@GetMapping("get")
-	    public List<Reunion> get(@RequestParam(name = "convocante") String convocante){
-	        List<Reunion> r = this.reunionRepository.findByConvocante(convocante);
+	    public List<Reunion> get(@RequestParam(name = "asistentes") String asistentes){
+	        List<Reunion> r = this.reunionRepository.findByAsistentesIn(asistentes);
 
 	        return r;
 	    }
+		
 		
 		@PostMapping("create")
 	    public Reunion create(@RequestParam(name = "temas") String temas,

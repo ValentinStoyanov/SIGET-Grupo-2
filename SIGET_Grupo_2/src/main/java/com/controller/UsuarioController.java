@@ -25,16 +25,14 @@ public class UsuarioController {
 
 	@PostMapping("login")
 	public boolean login(@RequestParam(name = "username") String username, @RequestParam(name = "password") String password){
-		if(!this.usuarioRepository.findOneByUsernameAndPassword(username, password).isEmpty()) {
-			return true;
-		}
-		return false;
+		
+		return !this.usuarioRepository.findOneByUsernameAndPassword(username, password).isEmpty();
 	}
 	
 	@GetMapping("getAll")
     public List<Usuario> getAll(){
-        List<Usuario> r = this.usuarioRepository.findAll();
-        return r;
+        
+        return this.usuarioRepository.findAll();
     }
 	
 	

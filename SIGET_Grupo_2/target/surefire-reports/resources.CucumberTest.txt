@@ -1,10 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: resources.CucumberTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.641 s <<< FAILURE! - in resources.CucumberTest
-El cliente llama al post de aceptar la reunion #1  Time elapsed: 2.612 s  <<< ERROR!
-io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in com.example.demo.PasosLogin.el_cliente_recibe_la_respuesta_de_que_el_login_es_correcto(java.lang.String) and com.example.demo.aceptarReunion.el_usuario_recibe_la_respuesta_de_aceptar_la_reunion(java.lang.String)
+Tests run: 16, Failures: 10, Errors: 6, Skipped: 0, Time elapsed: 2.508 s <<< FAILURE! - in resources.CucumberTest
+El cliente llama al post de aceptar la reunion #1  Time elapsed: 2.253 s  <<< FAILURE!
+java.lang.AssertionError: Error en la llamada http
 
-resources.CucumberTest  Time elapsed: 2.622 s  <<< ERROR!
-org.junit.runner.notification.StoppedByUserException
+El cliente llama al post de aceptar la reunion #2  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.AssertionError: Error en la llamada http
+
+El cliente llama al post de aceptar la reunion #3  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: Error en la llamada http
+
+El cliente llama al post de aceptar la reunion #4  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: Error en la llamada http
+
+El cliente llama al post de aceptar la reunion #5  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: Error en la llamada http
+
+El cliente llama al post de aceptar la reunion #6  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Error en la llamada http
+
+El cliente llama al post para cancelar la reunion #1  Time elapsed: 0.008 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+El cliente llama al post para cancelar la reunion #2  Time elapsed: 0.006 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+El cliente llama al post para cancelar la reunion #3  Time elapsed: 0.008 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+El cliente llama al post para cancelar la reunion #4  Time elapsed: 0.007 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+El cliente llama al post para cancelar la reunion #5  Time elapsed: 0.009 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+El cliente llama al post para cancelar la reunion #6  Time elapsed: 0.007 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+El cliente hace la llamada POST /login a la API #1  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.AssertionError: Error en la llamada http
+
+El cliente hace la llamada POST /login a la API #2  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Error en la llamada http
+
+El cliente hace la llamada POST /login a la API #3  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: Error en la llamada http
+
+El cliente hace la llamada POST /login a la API #4  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: Error en la llamada http
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="resources.CucumberTest" time="2.641" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="resources.CucumberTest" time="2.508" tests="16" errors="6" skipped="0" failures="10">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2/target/surefire/surefirebooter11495819168439180812.jar /Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2/target/surefire 2020-10-29T12-09-48_972-jvmRun1 surefire3892038362927308578tmp surefire_013005897881405032872tmp"/>
+    <property name="sun.java.command" value="/Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2/target/surefire/surefirebooter13637252152770139904.jar /Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2/target/surefire 2020-11-02T10-25-57_646-jvmRun1 surefire1398149132309153632tmp surefire_018259138938460310614tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2/target/test-classes:/Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2/target/classes:/Users/africasimonsesmero/.m2/repository/org/springframework/boot/spring-boot-starter-data-mongodb/2.3.4.RELEASE/spring-boot-starter-data-mongodb-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.4.RELEASE/spring-boot-starter-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.4.RELEASE/spring-boot-autoconfigure-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.4.RELEASE/spring-boot-starter-logging-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/africasimonsesmero/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/africasimonsesmero/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/Users/africasimonsesmero/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/africasimonsesmero/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar:/Users/africasimonsesmero/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:/Users/africasimonsesmero/.m2/repository/org/mongodb/mongodb-driver-sync/4.0.5/mongodb-driver-sync-4.0.5.jar:/Users/africasimonsesmero/.m2/repository/org/mongodb/bson/4.0.5/bson-4.0.5.jar:/Users/africasimonsesmero/.m2/repository/org/mongodb/mongodb-driver-core/4.0.5/mongodb-driver-core-4.0.5.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/data/spring-data-mongodb/3.0.4.RELEASE/spring-data-mongodb-3.0.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/spring-tx/5.2.9.RELEASE/spring-tx-5.2.9.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/spring-context/5.2.9.RELEASE/spring-context-5.2.9.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/spring-beans/5.2.9.RELEASE/spring-beans-5.2.9.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/spring-expression/5.2.9.RELEASE/spring-expression-5.2.9.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/data/spring-data-commons/2.3.4.RELEASE/spring-data-commons-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.4.RELEASE/spring-boot-starter-web-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.4.RELEASE/spring-boot-starter-json-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/Users/africasimonsesmero/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/Users/africasimonsesmero/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/Users/africasimonsesmero/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.2/jackson-datatype-jdk8-2.11.2.jar:/Users/africasimonsesmero/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.2/jackson-datatype-jsr310-2.11.2.jar:/Users/africasimonsesmero/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.2/jackson-module-parameter-names-2.11.2.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/spring-aop/5.2.9.RELEASE/spring-aop-5.2.9.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.4.RELEASE/spring-boot-starter-tomcat-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/africasimonsesmero/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.38/tomcat-embed-core-9.0.38.jar:/Users/africasimonsesmero/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar:/Users/africasimonsesmero/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.38/tomcat-embed-websocket-9.0.38.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.3.4.RELEASE/spring-boot-starter-test-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/boot/spring-boot-test/2.3.4.RELEASE/spring-boot-test-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.3.4.RELEASE/spring-boot-test-autoconfigure-2.3.4.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/africasimonsesmero/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/africasimonsesmero/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/africasimonsesmero/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/africasimonsesmero/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/africasimonsesmero/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/africasimonsesmero/.m2/repository/org/assertj/assertj-core/3.16.1/assertj-core-3.16.1.jar:/Users/africasimonsesmero/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/africasimonsesmero/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/africasimonsesmero/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/africasimonsesmero/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/africasimonsesmero/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/africasimonsesmero/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/africasimonsesmero/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/africasimonsesmero/.m2/repository/org/junit/vintage/junit-vintage-engine/5.6.2/junit-vintage-engine-5.6.2.jar:/Users/africasimonsesmero/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/africasimonsesmero/.m2/repository/org/mockito/mockito-core/3.3.3/mockito-core-3.3.3.jar:/Users/africasimonsesmero/.m2/repository/net/bytebuddy/byte-buddy/1.10.14/byte-buddy-1.10.14.jar:/Users/africasimonsesmero/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.14/byte-buddy-agent-1.10.14.jar:/Users/africasimonsesmero/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/africasimonsesmero/.m2/repository/org/mockito/mockito-junit-jupiter/3.3.3/mockito-junit-jupiter-3.3.3.jar:/Users/africasimonsesmero/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/Users/africasimonsesmero/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/spring-core/5.2.9.RELEASE/spring-core-5.2.9.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/spring-jcl/5.2.9.RELEASE/spring-jcl-5.2.9.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/springframework/spring-test/5.2.9.RELEASE/spring-test-5.2.9.RELEASE.jar:/Users/africasimonsesmero/.m2/repository/org/xmlunit/xmlunit-core/2.7.0/xmlunit-core-2.7.0.jar:/Users/africasimonsesmero/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/cucumber-java/6.8.0/cucumber-java-6.8.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/cucumber-core/6.8.0/cucumber-core-6.8.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/cucumber-gherkin/6.8.0/cucumber-gherkin-6.8.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.8.0/cucumber-gherkin-messages-6.8.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/messages/13.1.0/messages-13.1.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/cucumber-plugin/6.8.0/cucumber-plugin-6.8.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/docstring/6.8.0/docstring-6.8.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/create-meta/2.0.2/create-meta-2.0.2.jar:/Users/africasimonsesmero/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/cucumber-junit/6.8.0/cucumber-junit-6.8.0.jar:/Users/africasimonsesmero/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/africasimonsesmero/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/africasimonsesmero/.m2/repository/io/cucumber/cucumber-spring/6.8.0/cucumber-spring-6.8.0.jar:/Users/africasimonsesmero/.m2/repository/com/squareup/okhttp/okhttp/2.7.5/okhttp-2.7.5.jar:/Users/africasimonsesmero/.m2/repository/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2/target/surefire/surefirebooter11495819168439180812.jar"/>
+    <property name="surefire.real.class.path" value="/Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2/target/surefire/surefirebooter13637252152770139904.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -53,24 +53,24 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="El cliente llama al post de aceptar la reunion #1" classname="resources.CucumberTest" time="2.612">
-    <error message="Duplicate step definitions in com.example.demo.PasosLogin.el_cliente_recibe_la_respuesta_de_que_el_login_es_correcto(java.lang.String) and com.example.demo.aceptarReunion.el_usuario_recibe_la_respuesta_de_aceptar_la_reunion(java.lang.String)" type="io.cucumber.core.runner.DuplicateStepDefinitionException">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in com.example.demo.PasosLogin.el_cliente_recibe_la_respuesta_de_que_el_login_es_correcto(java.lang.String) and com.example.demo.aceptarReunion.el_usuario_recibe_la_respuesta_de_aceptar_la_reunion(java.lang.String)
-</error>
-    <system-out><![CDATA[12:09:50.004 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-12:09:50.015 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-12:09:50.040 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.demo.SigetGrupo2ApplicationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-12:09:50.057 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
-12:09:50.060 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.SigetGrupo2ApplicationTest]: class path resource [com/example/demo/SigetGrupo2ApplicationTest-context.xml] does not exist
-12:09:50.061 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.SigetGrupo2ApplicationTest]: class path resource [com/example/demo/SigetGrupo2ApplicationTestContext.groovy] does not exist
-12:09:50.061 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-12:09:50.062 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-12:09:50.100 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.demo.SigetGrupo2ApplicationTest]
-12:09:50.159 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2/target/classes/com/example/demo/SigetGrupo2Application.class]
-12:09:50.159 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
-12:09:50.240 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.demo.SigetGrupo2ApplicationTest]: using defaults.
-12:09:50.241 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-12:09:50.256 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@72f46e16, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3c9168dc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@332a7fce, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@549621f3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@54361a9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32232e55, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5217f3d0, org.springframework.test.context.event.EventPublishingTestExecutionListener@37ebc9d8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@293bb8a5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2416a51, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6fa590ba, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6e9319f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@72e34f77, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7bf9b098]
-12:09:50.278 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+  <testcase name="El cliente llama al post de aceptar la reunion #1" classname="resources.CucumberTest" time="2.253">
+    <failure message="Error en la llamada http" type="java.lang.AssertionError">java.lang.AssertionError: Error en la llamada http
+</failure>
+    <system-out><![CDATA[10:25:58.632 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:25:58.640 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:25:58.662 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.demo.SigetGrupo2ApplicationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+10:25:58.673 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+10:25:58.676 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.SigetGrupo2ApplicationTest]: class path resource [com/example/demo/SigetGrupo2ApplicationTest-context.xml] does not exist
+10:25:58.677 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.SigetGrupo2ApplicationTest]: class path resource [com/example/demo/SigetGrupo2ApplicationTestContext.groovy] does not exist
+10:25:58.677 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:25:58.678 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:25:58.709 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.demo.SigetGrupo2ApplicationTest]
+10:25:58.748 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2/target/classes/com/example/demo/SigetGrupo2Application.class]
+10:25:58.748 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+10:25:58.819 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.demo.SigetGrupo2ApplicationTest]: using defaults.
+10:25:58.820 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:25:58.830 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2fab4aff, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@ec0c838, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6e46d9f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5cc69cfe, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29cfd92b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@21c64522, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7997b197, org.springframework.test.context.event.EventPublishingTestExecutionListener@11dee337, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@460f76a6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@55f3c410, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@11acdc30, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@770d4269, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4a8ab068, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1922e6d]
+10:25:58.845 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -80,43 +80,960 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.3.4.RELEASE)
 
-2020-10-29 12:09:50.689  INFO 4909 --- [           main] c.e.demo.SigetGrupo2ApplicationTest      : Starting SigetGrupo2ApplicationTest on MacBook-Pro-de-Africa.local with PID 4909 (started by africasimonsesmero in /Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2)
-2020-10-29 12:09:50.690  INFO 4909 --- [           main] c.e.demo.SigetGrupo2ApplicationTest      : No active profile set, falling back to default profiles: default
-2020-10-29 12:09:51.033  INFO 4909 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2020-10-29 12:09:51.075  INFO 4909 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36ms. Found 2 MongoDB repository interfaces.
-2020-10-29 12:09:51.537  INFO 4909 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=cluster0.iokjk.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-p5qx66-shard-0'}
-2020-10-29 12:09:51.720  INFO 4909 --- [kjk.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-01.iokjk.mongodb.net:27017 to client view of cluster
-2020-10-29 12:09:51.743  INFO 4909 --- [kjk.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-02.iokjk.mongodb.net:27017 to client view of cluster
-2020-10-29 12:09:51.744  INFO 4909 --- [kjk.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-00.iokjk.mongodb.net:27017 to client view of cluster
-2020-10-29 12:09:52.188  INFO 4909 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-29 12:09:52.192  INFO 4909 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:354095}] to cluster0-shard-00-00.iokjk.mongodb.net:27017
-2020-10-29 12:09:52.248  INFO 4909 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.iokjk.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=43723378, setName='atlas-p5qx66-shard-0', canonicalAddress=cluster0-shard-00-00.iokjk.mongodb.net:27017, hosts=[cluster0-shard-00-00.iokjk.mongodb.net:27017, cluster0-shard-00-02.iokjk.mongodb.net:27017, cluster0-shard-00-01.iokjk.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.iokjk.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_CENTRAL_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Thu Oct 29 12:09:52 CET 2020, lastUpdateTimeNanos=53858367386181}
-2020-10-29 12:09:52.401  INFO 4909 --- [           main] c.e.demo.SigetGrupo2ApplicationTest      : Started SigetGrupo2ApplicationTest in 2.112 seconds (JVM running for 3.284)
-2020-10-29 12:09:52.402  INFO 4909 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:441576}] to cluster0-shard-00-01.iokjk.mongodb.net:27017
+2020-11-02 10:25:59.051  INFO 6912 --- [           main] c.e.demo.SigetGrupo2ApplicationTest      : Starting SigetGrupo2ApplicationTest on MacBook-Pro-de-Africa.local with PID 6912 (started by africasimonsesmero in /Users/africasimonsesmero/git/SIGET-Grupo-2/SIGET_Grupo_2)
+2020-11-02 10:25:59.052  INFO 6912 --- [           main] c.e.demo.SigetGrupo2ApplicationTest      : No active profile set, falling back to default profiles: default
+2020-11-02 10:25:59.359  INFO 6912 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-11-02 10:25:59.396  INFO 6912 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 2 MongoDB repository interfaces.
+2020-11-02 10:25:59.848  INFO 6912 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=cluster0.iokjk.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-p5qx66-shard-0'}
+2020-11-02 10:25:59.938  INFO 6912 --- [kjk.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-01.iokjk.mongodb.net:27017 to client view of cluster
+2020-11-02 10:25:59.958  INFO 6912 --- [kjk.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-02.iokjk.mongodb.net:27017 to client view of cluster
+2020-11-02 10:25:59.959  INFO 6912 --- [kjk.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-00.iokjk.mongodb.net:27017 to client view of cluster
+2020-11-02 10:26:00.422  INFO 6912 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-02 10:26:00.635  INFO 6912 --- [           main] c.e.demo.SigetGrupo2ApplicationTest      : Started SigetGrupo2ApplicationTest in 1.784 seconds (JVM running for 2.843)
+El usuairo no ha aceptardo la reunion...
+]]></system-out>
+    <system-err><![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.Call.getResponse(Call.java:286)
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at com.squareup.okhttp.Call.execute(Call.java:80)
+	at com.example.demo.aceptarReunion.el_usuario_recibe_que_la_reunion_ha_sido_aceptada(aceptarReunion.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="El cliente llama al post de aceptar la reunion #2" classname="resources.CucumberTest" time="0.025">
+    <failure message="Error en la llamada http" type="java.lang.AssertionError">java.lang.AssertionError: Error en la llamada http
+</failure>
+    <system-out><![CDATA[2020-11-02 10:26:00.748  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.748  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.748  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.750  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.752  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.752  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@60dcf9ec, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7606bd03, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@afee63, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4b4927e5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c5da4f9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@ff0e6d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@70d3cdbf, org.springframework.test.context.event.EventPublishingTestExecutionListener@72a7aa4f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@537ca28e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5b322873, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@35e2b89f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7ad889be, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4c063cb9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@63de4fa]
+El usuairo no ha aceptardo la reunion...
+]]></system-out>
+    <system-err><![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.Call.getResponse(Call.java:286)
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at com.squareup.okhttp.Call.execute(Call.java:80)
+	at com.example.demo.aceptarReunion.el_usuario_recibe_que_la_reunion_ha_sido_aceptada(aceptarReunion.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="El cliente llama al post de aceptar la reunion #3" classname="resources.CucumberTest" time="0.02">
+    <failure message="Error en la llamada http" type="java.lang.AssertionError">java.lang.AssertionError: Error en la llamada http
+</failure>
+    <system-out><![CDATA[2020-11-02 10:26:00.763  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.764  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.764  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.765  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.767  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.767  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7b1a30e5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1de7f898, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@34fcd292, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@63db743d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@496cedbb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6b6def36, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3957d88b, org.springframework.test.context.event.EventPublishingTestExecutionListener@1152900, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2fba0dac, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2b2a4332, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2cbe455c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4cb24e2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7be38eba, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2296127]
+El usuairo no ha aceptardo la reunion...
+]]></system-out>
+    <system-err><![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.Call.getResponse(Call.java:286)
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at com.squareup.okhttp.Call.execute(Call.java:80)
+	at com.example.demo.aceptarReunion.el_usuario_recibe_que_la_reunion_ha_sido_aceptada(aceptarReunion.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="El cliente llama al post de aceptar la reunion #4" classname="resources.CucumberTest" time="0.026">
+    <failure message="Error en la llamada http" type="java.lang.AssertionError">java.lang.AssertionError: Error en la llamada http
+</failure>
+    <system-out><![CDATA[2020-11-02 10:26:00.778  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.778  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.779  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.780  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.781  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.781  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66234b0f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2fca3eb5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@69eb544f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7cb29ea8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b5c902, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7e747037, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4d0e1a9a, org.springframework.test.context.event.EventPublishingTestExecutionListener@25218a4d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@bf2aa32, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@56da96b3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6b3d9c38, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@426710f0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c5a91b4, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5e37fb82]
+El usuairo no ha aceptardo la reunion...
+]]></system-out>
+    <system-err><![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.Call.getResponse(Call.java:286)
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at com.squareup.okhttp.Call.execute(Call.java:80)
+	at com.example.demo.aceptarReunion.el_usuario_recibe_que_la_reunion_ha_sido_aceptada(aceptarReunion.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="El cliente llama al post de aceptar la reunion #5" classname="resources.CucumberTest" time="0.02">
+    <failure message="Error en la llamada http" type="java.lang.AssertionError">java.lang.AssertionError: Error en la llamada http
+</failure>
+    <system-out><![CDATA[2020-11-02 10:26:00.792  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.792  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.792  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.794  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.795  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.795  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2ba9f986, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4aa3fc9a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@70f4f89e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@634aa81e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@74b1838, org.springframework.test.context.transaction.TransactionalTestExecutionListener@52d96367, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5be51aa, org.springframework.test.context.event.EventPublishingTestExecutionListener@3302035b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6c5747db, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@750cd36d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2c8ff67, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@21733cbe, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@77ccded4, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@64c8fcfb]
+El usuairo no ha aceptardo la reunion...
+]]></system-out>
+    <system-err><![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.Call.getResponse(Call.java:286)
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at com.squareup.okhttp.Call.execute(Call.java:80)
+	at com.example.demo.aceptarReunion.el_usuario_recibe_que_la_reunion_ha_sido_aceptada(aceptarReunion.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="El cliente llama al post de aceptar la reunion #6" classname="resources.CucumberTest" time="0.019">
+    <failure message="Error en la llamada http" type="java.lang.AssertionError">java.lang.AssertionError: Error en la llamada http
+</failure>
+    <system-out><![CDATA[2020-11-02 10:26:00.809  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.810  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.810  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.812  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.812  INFO 6912 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:430821}] to cluster0-shard-00-00.iokjk.mongodb.net:27017
+2020-11-02 10:26:00.813  INFO 6912 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:422862}] to cluster0-shard-00-02.iokjk.mongodb.net:27017
+2020-11-02 10:26:00.813  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.813  INFO 6912 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:545509}] to cluster0-shard-00-01.iokjk.mongodb.net:27017
+2020-11-02 10:26:00.814  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@83b0d0f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2bb717d7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7afe0e67, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6121a7dd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@31228d83, org.springframework.test.context.transaction.TransactionalTestExecutionListener@22b82ddf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@28bf82d9, org.springframework.test.context.event.EventPublishingTestExecutionListener@44ccd75c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@61a704d3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2120bed, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@566fe83c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@743bb39a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2de3b052, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3f3c8b60]
+El usuairo no ha aceptardo la reunion...
+]]></system-out>
+    <system-err><![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.Call.getResponse(Call.java:286)
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at com.squareup.okhttp.Call.execute(Call.java:80)
+	at com.example.demo.aceptarReunion.el_usuario_recibe_que_la_reunion_ha_sido_aceptada(aceptarReunion.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="El cliente llama al post para cancelar la reunion #1" classname="resources.CucumberTest" time="0.008">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+</error>
+    <system-out><![CDATA[2020-11-02 10:26:00.823  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.824  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.824  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.825  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.826  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.827  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4052913c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@99c4993, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@38089dae, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@9729a97, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5dfd31f4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@36463b09, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4adf3582, org.springframework.test.context.event.EventPublishingTestExecutionListener@57e4b86c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@632241f5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@64bba0eb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@577bfadb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@25ae1f80, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@54f2df29, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6df791a4]
 ]]></system-out>
   </testcase>
-  <testcase name="resources.CucumberTest" classname="resources.CucumberTest" time="2.622">
-    <error type="org.junit.runner.notification.StoppedByUserException">org.junit.runner.notification.StoppedByUserException
+  <testcase name="El cliente llama al post para cancelar la reunion #2" classname="resources.CucumberTest" time="0.006">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
 </error>
-    <system-out><![CDATA[2020-10-29 12:09:52.445  INFO 4909 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.iokjk.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=42401466, setName='atlas-p5qx66-shard-0', canonicalAddress=cluster0-shard-00-01.iokjk.mongodb.net:27017, hosts=[cluster0-shard-00-00.iokjk.mongodb.net:27017, cluster0-shard-00-02.iokjk.mongodb.net:27017, cluster0-shard-00-01.iokjk.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.iokjk.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_CENTRAL_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000007, setVersion=1, lastWriteDate=Thu Oct 29 12:09:52 CET 2020, lastUpdateTimeNanos=53858574956922}
-2020-10-29 12:09:52.445  INFO 4909 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff0000000000000007 from replica set primary cluster0-shard-00-01.iokjk.mongodb.net:27017
-2020-10-29 12:09:52.445  INFO 4909 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 1 from replica set primary cluster0-shard-00-01.iokjk.mongodb.net:27017
-2020-10-29 12:09:52.445  INFO 4909 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-01.iokjk.mongodb.net:27017
-2020-10-29 12:09:52.449  INFO 4909 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:353272}] to cluster0-shard-00-02.iokjk.mongodb.net:27017
+    <system-out><![CDATA[2020-11-02 10:26:00.837  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.838  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.838  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.839  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.841  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.841  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@20b829d5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7c5f29c6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4baf997, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5280688, org.springframework.test.context.support.DirtiesContextTestExecutionListener@643f6179, org.springframework.test.context.transaction.TransactionalTestExecutionListener@61ab6521, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@328e4ec2, org.springframework.test.context.event.EventPublishingTestExecutionListener@7757025d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68fc9167, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@52c46334, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@12fccff0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5d767218, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@510da778, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@20a1b3ae]
 ]]></system-out>
-    <system-err><![CDATA[&amp#27;[32m&amp#27;[1m┌─────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m Share your Cucumber Report with your team at &amp#27;[36m&amp#27;[1m&amp#27;[4mhttps://reports.cucumber.io&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m Activate publishing with one of the following:                              &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                             &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:    &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m Environment variable:                      &amp#27;[36mCUCUMBER_PUBLISH_ENABLED&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m JUnit:                                     &amp#27;[36m@CucumberOptions&amp#27;[0m(publish = &amp#27;[36mtrue&amp#27;[0m) &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                             &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m More information at &amp#27;[36mhttps://reports.cucumber.io/docs/cucumber-jvm&amp#27;[0m           &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                             &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m To disable this message, add &amp#27;[1mcucumber.publish.quiet&amp#27;[0m&amp#27;[1m=&amp#27;[0m&amp#27;[1mtrue&amp#27;[0m to                 &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m &amp#27;[1msrc/test/resources/cucumber.properties&amp#27;[0m                                      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m└─────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+  </testcase>
+  <testcase name="El cliente llama al post para cancelar la reunion #3" classname="resources.CucumberTest" time="0.008">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+</error>
+    <system-out><![CDATA[2020-11-02 10:26:00.848  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.849  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.849  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.850  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.851  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.852  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3a5e2525, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6546371, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2b458cd6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4c2c44e8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7103745, org.springframework.test.context.transaction.TransactionalTestExecutionListener@227a933d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@25de8898, org.springframework.test.context.event.EventPublishingTestExecutionListener@bfb93cf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@dd737ea, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7bc2ae16, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2a0963be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7d3bf8db, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@49e7e8f1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@27bb4dc5]
+]]></system-out>
+  </testcase>
+  <testcase name="El cliente llama al post para cancelar la reunion #4" classname="resources.CucumberTest" time="0.007">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+</error>
+    <system-out><![CDATA[2020-11-02 10:26:00.859  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.859  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.859  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.860  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.861  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.862  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@64910b2d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1247c72e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6fef75c6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5f61e002, org.springframework.test.context.support.DirtiesContextTestExecutionListener@334540a0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1f179f51, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@b428830, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b7308aa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@42aa1324, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6164e137, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7ef8e623, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3d8d970e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2fac80a8, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6987a133]
+]]></system-out>
+  </testcase>
+  <testcase name="El cliente llama al post para cancelar la reunion #5" classname="resources.CucumberTest" time="0.009">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+</error>
+    <system-out><![CDATA[2020-11-02 10:26:00.869  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.869  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.869  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.870  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.871  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.872  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1934339, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4af12a63, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1eab8437, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@72eed547, org.springframework.test.context.support.DirtiesContextTestExecutionListener@69ffdaa8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a1e57c6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@68d6f48e, org.springframework.test.context.event.EventPublishingTestExecutionListener@6c96403e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7babed9e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2353354a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7c7ed72a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@22b7ef2b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d421fe, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3c17bd0b]
+]]></system-out>
+  </testcase>
+  <testcase name="El cliente llama al post para cancelar la reunion #6" classname="resources.CucumberTest" time="0.007">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+</error>
+    <system-out><![CDATA[2020-11-02 10:26:00.878  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.879  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.879  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.881  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.882  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.883  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2b098563, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@c758a2d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@d0b814d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6ce15112, org.springframework.test.context.support.DirtiesContextTestExecutionListener@ba4f370, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2ba024cb, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7af0d91b, org.springframework.test.context.event.EventPublishingTestExecutionListener@1c7f6e96, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@30ec211a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1ac0cdb0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6684f7f2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1682e6a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@505d2bac, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4cecc15a]
+]]></system-out>
+  </testcase>
+  <testcase name="El cliente hace la llamada POST /login a la API #1" classname="resources.CucumberTest" time="0.025">
+    <failure message="Error en la llamada http" type="java.lang.AssertionError">java.lang.AssertionError: Error en la llamada http
+</failure>
+    <system-out><![CDATA[2020-11-02 10:26:00.891  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.892  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.892  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.893  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.894  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.895  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4d4df0f4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@74f4a2ba, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5e385b6f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@67b560fe, org.springframework.test.context.support.DirtiesContextTestExecutionListener@45dde6ac, org.springframework.test.context.transaction.TransactionalTestExecutionListener@14ed7ddf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@892af0e, org.springframework.test.context.event.EventPublishingTestExecutionListener@446c8c72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e2eead5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@11d2714a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@ca546a1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2c8a445b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@356b6b5d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@37b1149b]
+2020-11-02 10:26:00.900  INFO 6912 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.iokjk.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=80550775, setName='atlas-p5qx66-shard-0', canonicalAddress=cluster0-shard-00-00.iokjk.mongodb.net:27017, hosts=[cluster0-shard-00-00.iokjk.mongodb.net:27017, cluster0-shard-00-02.iokjk.mongodb.net:27017, cluster0-shard-00-01.iokjk.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.iokjk.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_CENTRAL_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Mon Nov 02 10:26:00 CET 2020, lastUpdateTimeNanos=114335160692692}
+2020-11-02 10:26:00.900  INFO 6912 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-02.iokjk.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=78567183, setName='atlas-p5qx66-shard-0', canonicalAddress=cluster0-shard-00-02.iokjk.mongodb.net:27017, hosts=[cluster0-shard-00-00.iokjk.mongodb.net:27017, cluster0-shard-00-02.iokjk.mongodb.net:27017, cluster0-shard-00-01.iokjk.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.iokjk.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_CENTRAL_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Mon Nov 02 10:26:00 CET 2020, lastUpdateTimeNanos=114335159372315}
+2020-11-02 10:26:00.902  INFO 6912 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.iokjk.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=76876764, setName='atlas-p5qx66-shard-0', canonicalAddress=cluster0-shard-00-01.iokjk.mongodb.net:27017, hosts=[cluster0-shard-00-00.iokjk.mongodb.net:27017, cluster0-shard-00-02.iokjk.mongodb.net:27017, cluster0-shard-00-01.iokjk.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.iokjk.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_CENTRAL_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000007, setVersion=1, lastWriteDate=Mon Nov 02 10:26:00 CET 2020, lastUpdateTimeNanos=114335158220733}
+2020-11-02 10:26:00.902  INFO 6912 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff0000000000000007 from replica set primary cluster0-shard-00-01.iokjk.mongodb.net:27017
+Usuario intentado logearse...
+2020-11-02 10:26:00.902  INFO 6912 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 1 from replica set primary cluster0-shard-00-01.iokjk.mongodb.net:27017
+2020-11-02 10:26:00.902  INFO 6912 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-01.iokjk.mongodb.net:27017
+]]></system-out>
+    <system-err><![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.Call.getResponse(Call.java:286)
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at com.squareup.okhttp.Call.execute(Call.java:80)
+	at com.example.demo.PasosLogin.el_cliente_recibe_la_respuesta_de_que_el_login_es_correcto(PasosLogin.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="El cliente hace la llamada POST /login a la API #2" classname="resources.CucumberTest" time="0.018">
+    <failure message="Error en la llamada http" type="java.lang.AssertionError">java.lang.AssertionError: Error en la llamada http
+</failure>
+    <system-out><![CDATA[2020-11-02 10:26:00.909  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.909  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.909  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.910  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.912  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.912  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@bb6f3f7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@388f1258, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@62058742, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@aca2fc3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@36df4c26, org.springframework.test.context.transaction.TransactionalTestExecutionListener@76828577, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@38732372, org.springframework.test.context.event.EventPublishingTestExecutionListener@639cb788, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2fee69a1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4d25f816, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6c6c2a73, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6a4af081, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@36b53f08, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@54329480]
+Usuario intentado logearse...
+]]></system-out>
+    <system-err><![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.Call.getResponse(Call.java:286)
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at com.squareup.okhttp.Call.execute(Call.java:80)
+	at com.example.demo.PasosLogin.el_cliente_recibe_la_respuesta_de_que_el_login_es_correcto(PasosLogin.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="El cliente hace la llamada POST /login a la API #3" classname="resources.CucumberTest" time="0.016">
+    <failure message="Error en la llamada http" type="java.lang.AssertionError">java.lang.AssertionError: Error en la llamada http
+</failure>
+    <system-out><![CDATA[2020-11-02 10:26:00.922  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.923  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.923  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.924  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.926  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.926  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7b211077, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b770d07, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@62b0bf85, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fcaea93, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6c9bf3b5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6f07d414, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8ac12e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@40faff12, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@734fbae3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@223967ea, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4a6a6a69, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5d7f1e59, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@53e93fb7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3a861417]
+Usuario intentado logearse...
+]]></system-out>
+    <system-err><![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.Call.getResponse(Call.java:286)
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at com.squareup.okhttp.Call.execute(Call.java:80)
+	at com.example.demo.PasosLogin.el_cliente_recibe_la_respuesta_de_que_el_login_es_correcto(PasosLogin.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="El cliente hace la llamada POST /login a la API #4" classname="resources.CucumberTest" time="0.015">
+    <failure message="Error en la llamada http" type="java.lang.AssertionError">java.lang.AssertionError: Error en la llamada http
+</failure>
+    <system-out><![CDATA[2020-11-02 10:26:00.935  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SigetGrupo2ApplicationTest], using SpringBootContextLoader
+2020-11-02 10:26:00.936  INFO 6912 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.demo.SigetGrupo2ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-02 10:26:00.936  INFO 6912 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.SigetGrupo2ApplicationTest]: SigetGrupo2ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-02 10:26:00.940  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.SigetGrupo2Application for test class com.example.demo.SigetGrupo2ApplicationTest
+2020-11-02 10:26:00.941  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-02 10:26:00.944  INFO 6912 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@53f7a906, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2154652c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@8b670c0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4c2ab536, org.springframework.test.context.support.DirtiesContextTestExecutionListener@22fb9a2c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2084e65a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1b8fa2fa, org.springframework.test.context.event.EventPublishingTestExecutionListener@21527b8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7cc1f72c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7b7068d8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1d8e9d3e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@360d41d0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4586a8aa, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3dc82e6a]
+Usuario intentado logearse...
+]]></system-out>
+    <system-err><![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.Call.getResponse(Call.java:286)
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at com.squareup.okhttp.Call.execute(Call.java:80)
+	at com.example.demo.PasosLogin.el_cliente_recibe_la_respuesta_de_que_el_login_es_correcto(PasosLogin.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]></system-err>
   </testcase>
 </testsuite>

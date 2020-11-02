@@ -1,4 +1,3 @@
-
 Feature: La reunion se ha aceptado correctamente
 
   

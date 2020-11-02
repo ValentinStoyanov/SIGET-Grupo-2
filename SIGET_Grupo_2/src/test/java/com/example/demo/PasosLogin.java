@@ -31,7 +31,7 @@ public class PasosLogin extends SigetGrupo2ApplicationTest{
 		MediaType mediaType = MediaType.parse("text/plain");
 		RequestBody body = RequestBody.create(mediaType, "");
 		request = new Request.Builder()
-		          .url("http://localhost:8080/usuarios/login?username="+ username + "&password=" + password)
+		          .url("https://siget-grupo2.herokuapp.com/usuarios/login?username="+ username + "&password=" + password)
 		          .post(body)
 		          .addHeader("Content-Type", "application/json")
 		          .addHeader("User-Agent", "PostmanRuntime/7.19.0")

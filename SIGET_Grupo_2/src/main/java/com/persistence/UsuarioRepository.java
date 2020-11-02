@@ -10,4 +10,6 @@ import com.model.Usuario;
 @Repository
 public interface UsuarioRepository extends MongoRepository<Usuario, String> {
 	Optional<Usuario> findOneByUsernameAndPassword(String username, String password);
+	
+	Optional<Usuario> findOneByUsername(String username);
 }

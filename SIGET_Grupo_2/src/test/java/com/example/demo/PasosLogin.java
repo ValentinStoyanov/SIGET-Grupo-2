@@ -5,7 +5,6 @@ import static org.junit.Assert.fail;
 import java.io.IOException;
 
 import org.json.JSONException;
-import org.json.JSONObject;
 
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.OkHttpClient;

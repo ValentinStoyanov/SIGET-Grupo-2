@@ -20,7 +20,6 @@ public class PasosLogin extends SigetGrupo2ApplicationTest{
 	private OkHttpClient client;
 	private Request request;
 	
-	
 	@Given("el usuario intenta logearse")
 	public void el_usuario_intenta_logearse() {
 	    System.out.println("Usuario intentado logearse...");

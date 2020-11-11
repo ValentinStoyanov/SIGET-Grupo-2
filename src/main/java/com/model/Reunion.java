@@ -8,17 +8,19 @@ public class Reunion {
 	
 	private String temas;
 	private String descripcion;
+	private String fecha;
 	private String hora_inicio;
 	private String hora_fin;
 	private String[] asistentes;
 	private String convocante;
 	
 
-	public Reunion(String temas, String descripcion, String hora_inicio, String hora_fin, String[] asistentes,
+	public Reunion(String temas, String descripcion,String fecha, String hora_inicio, String hora_fin, String[] asistentes,
 			String convocante) {
 		super();
 		this.temas = temas;
 		this.descripcion = descripcion;
+		this.fecha = fecha;
 		this.hora_inicio = hora_inicio;
 		this.hora_fin = hora_fin;
 		this.asistentes = asistentes;
@@ -45,7 +47,14 @@ public class Reunion {
 		this.descripcion = descripcion;
 	}
 
-
+	public String getFecha() {
+		return fecha;
+	}
+	
+	public void setFecha(String fecha) {
+		this.fecha = fecha;
+	}
+	
 	public String getHora_inicio() {
 		return hora_inicio;
 	}

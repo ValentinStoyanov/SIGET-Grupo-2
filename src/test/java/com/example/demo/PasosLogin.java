@@ -45,7 +45,6 @@ public class PasosLogin extends SigetGrupo2ApplicationTest{
 	}
 	@Then("el cliente recibe la respuesta de que el login es {string}")
 	public void el_cliente_recibe_la_respuesta_de_que_el_login_es_correcto(String correcto) throws IOException, JSONException {
-		/*
 		try {
 			Response response = client.newCall(request).execute();
 		    String body= response.body().string();
@@ -62,6 +61,5 @@ public class PasosLogin extends SigetGrupo2ApplicationTest{
 			e.printStackTrace();
 		    fail("Error en la llamada http");
 		}
-		*/
 	}
 }

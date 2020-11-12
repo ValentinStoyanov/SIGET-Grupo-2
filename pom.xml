@@ -17,7 +17,6 @@
 	<description>Proyecto de cuarto curso de ingenieria informatica</description>
 
 	<properties>
-		<java.version>8</java.version>
 		<sonar.projectKey>ValentinStoyanov_SIGET-Grupo-2</sonar.projectKey>
 		<sonar.organization>grupo2</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>

@@ -45,7 +45,6 @@ public class PasosLogin extends SigetGrupo2ApplicationTest{
 		          .addHeader("Content-Length", "84")
 		          .addHeader("Connection", "keep-alive")
 		          .addHeader("cache-control", "no-cache")
-		          .
 		          .build();
 	}
 	

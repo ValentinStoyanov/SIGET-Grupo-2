@@ -3,6 +3,7 @@ package com.example.demo;
 import static org.junit.Assert.fail;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.json.JSONException;
 
@@ -28,6 +29,8 @@ public class PasosLogin extends SigetGrupo2ApplicationTest{
 	@When("el cliente hace la llamada POST \\/login con los parámetros username {string} y password {string}")
 	public void el_cliente_hace_la_llamada_post_login_con_los_parámetros_username_y_password(String username, String password) throws IOException {
 		client = new OkHttpClient();
+		client.setConnectTimeout(5, TimeUnit.SECONDS);
+		client.setReadTimeout(5, TimeUnit.SECONDS);
 		MediaType mediaType = MediaType.parse("text/plain");
 		RequestBody body = RequestBody.create(mediaType, "");
 		request = new Request.Builder()
@@ -42,6 +45,7 @@ public class PasosLogin extends SigetGrupo2ApplicationTest{
 		          .addHeader("Content-Length", "84")
 		          .addHeader("Connection", "keep-alive")
 		          .addHeader("cache-control", "no-cache")
+		          .
 		          .build();
 	}
 	

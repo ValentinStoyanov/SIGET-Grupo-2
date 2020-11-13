@@ -18,4 +18,10 @@ public interface ReunionRepository extends MongoRepository<Reunion, String> {
 	List<Reunion> findByConvocante(String convocante);
 	
 	Optional<Reunion> deleteByConvocante(String convocante);
+	
+	Optional<Reunion> deleteByHoraInicio(String horaInicio);
+	
+	Optional<Reunion> findOneByHoraInicio(String horaInicio);
+	
+	
 }

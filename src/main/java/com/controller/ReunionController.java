@@ -37,27 +37,35 @@ import com.persistence.ReunionRepository;
 	    }
 		
 		
+		@GetMapping("getHora")
+	    public Optional<Reunion> getHora(@RequestParam(name = "horaInicio") String horaInicio){
+	        
+
+	        return this.reunionRepository.findOneByHoraInicio(horaInicio);
+	    }
+		
+		
+		
 		@PostMapping("create")
 	    public Reunion create(@RequestParam(name = "temas") String temas,
 	    		@RequestParam(name = "descripcion") String descripcion,
-	    		@RequestParam(name = "fecha") String fecha,
 	    		@RequestParam(name = "hora_inicio") String hora_inicio,
 	    		@RequestParam(name = "hora_fin") String hora_fin,
 	    		@RequestParam(name = "asistentes") String[] asistentes,
 	    		@RequestParam(name = "convocante") String convocante){
 
-	        return this.reunionRepository.insert(new Reunion(temas,descripcion,fecha,hora_inicio,
+	        return this.reunionRepository.insert(new Reunion(temas,descripcion,hora_inicio,
 					hora_fin,asistentes,convocante));
 	    }
 		
 		
 		@PostMapping("delete")
-	    public boolean delete(@RequestParam(name = "convocante") String convocante){
+	    public boolean delete(@RequestParam(name = "horaInicio") String horaInicio){
 			
-			Optional<Reunion> reunion = this.reunionRepository.findOneByConvocante(convocante);
+			Optional<Reunion> reunion = this.reunionRepository.findOneByHoraInicio(horaInicio);
 			
 	        if(!reunion.toString().equals("Optional.empty")) {
-	        	this.reunionRepository.deleteByConvocante(convocante);
+	        	this.reunionRepository.deleteByHoraInicio(horaInicio);
 	        	return true;
 	        }
 	        return false;

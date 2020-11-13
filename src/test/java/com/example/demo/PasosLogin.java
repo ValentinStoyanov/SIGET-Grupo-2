@@ -29,8 +29,8 @@ public class PasosLogin extends SigetGrupo2ApplicationTest{
 	@When("el cliente hace la llamada POST \\/login con los parámetros username {string} y password {string}")
 	public void el_cliente_hace_la_llamada_post_login_con_los_parámetros_username_y_password(String username, String password) throws IOException {
 		client = new OkHttpClient();
-		client.setConnectTimeout(5, TimeUnit.SECONDS);
-		client.setReadTimeout(5, TimeUnit.SECONDS);
+		client.setConnectTimeout(60, TimeUnit.SECONDS);
+		client.setReadTimeout(60, TimeUnit.SECONDS);
 		MediaType mediaType = MediaType.parse("text/plain");
 		RequestBody body = RequestBody.create(mediaType, "");
 		request = new Request.Builder()

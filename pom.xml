@@ -18,11 +18,18 @@
 
 	<properties>
 		<sonar.projectKey>ValentinStoyanov_SIGET-Grupo-2</sonar.projectKey>
-		<sonar.organization>valentinstoyanov</sonar.organization>
+		<sonar.organization>grupo2</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>io.github.createam-labs</groupId>
+			<artifactId>spring-boot-starter-heroku</artifactId>
+			<version>1.1</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
@@ -70,7 +77,6 @@
 			<artifactId>okhttp</artifactId>
 			<version>2.7.5</version>
 		</dependency>
-
 	</dependencies>
 
 

@@ -23,8 +23,7 @@ public class UsuarioController {
 
 	@PostMapping("login")
 	public boolean login(@RequestParam(name = "username") String username, @RequestParam(name = "password") String password){
-		
-		return !this.usuarioRepository.findOneByUsernameAndPassword(username, password).isEmpty();
+		return (!this.usuarioRepository.findOneByUsernameAndPassword(username, password).toString().equals("Optional.empty"));
 	}
 	
 	@GetMapping("getAll")

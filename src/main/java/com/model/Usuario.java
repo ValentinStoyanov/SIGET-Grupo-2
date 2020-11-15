@@ -5,14 +5,18 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "Usuario")
 public class Usuario {
 	
+	
+
 	private String username;
-	private String password;
+	private byte salt[];
+	private byte[] hash;
 	private String roleID;
 	
-	public Usuario(String username, String password, String roleID) {
+	public Usuario(String username, byte[] salt, byte[] hash, String roleID) {
 		super();
 		this.username = username;
-		this.password = password;
+		this.salt = salt;
+		this.hash = hash;
 		this.roleID = roleID;
 	}
 
@@ -24,12 +28,20 @@ public class Usuario {
 		this.username = username;
 	}
 
-	public String getPassword() {
-		return password;
+	public byte[] getSalt() {
+		return salt;
 	}
 
-	public void setPassword(String password) {
-		this.password = password;
+	public void setSalt(byte[] salt) {
+		this.salt = salt;
+	}
+
+	public byte[] getHash() {
+		return hash;
+	}
+
+	public void setHash(byte[] hash) {
+		this.hash = hash;
 	}
 
 	public String getRoleID() {
@@ -39,7 +51,6 @@ public class Usuario {
 	public void setRoleID(String roleID) {
 		this.roleID = roleID;
 	}
-
-
+	
 	
 }

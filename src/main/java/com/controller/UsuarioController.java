@@ -60,7 +60,11 @@ public class UsuarioController {
     }
 	@PostMapping("createUsuario")
 	public Usuario createUsuario(@RequestParam(name = "username") String username,
-			@RequestParam(name = "password") char[] password) throws GeneralSecurityException {
+			@RequestParam(name = "password") char[] password,
+			@RequestParam(name = "nombre") String nombre,
+			@RequestParam(name = "apellidos") String apellidos,
+			@RequestParam(name = "email") String email,
+			@RequestParam(name = "telefono") int telefono) throws GeneralSecurityException {
 		
 		
 		SecureRandom random = new SecureRandom();
@@ -72,7 +76,7 @@ public class UsuarioController {
 		byte[] hash = skf.generateSecret(spec).getEncoded();
 		
 		
-		return this.usuarioRepository.insert(new Usuario(username, salt,hash,"3"));
+		return this.usuarioRepository.insert(new Usuario(username, salt,hash,"3",nombre,apellidos,email,telefono));
 	}
 	
 	

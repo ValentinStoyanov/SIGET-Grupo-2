@@ -9,18 +9,16 @@ public class Reunion {
 
 	private String temas;
 	private String descripcion;
-	private String fecha;
 	private String horaInicio;
 	private String horaFin;
 	private String[] asistentes;
 	private String convocante;
 	
-	public Reunion(String temas, String descripcion,String fecha, String horaInicio, String horaFin,
+	public Reunion(String temas, String descripcion, String horaInicio, String horaFin,
 			String[] asistentes, String convocante) {
 		super();
 		this.temas = temas;
 		this.descripcion = descripcion;
-		this.fecha = fecha;
 		this.horaInicio = horaInicio;
 		this.horaFin = horaFin;
 		this.asistentes = asistentes;
@@ -43,12 +41,6 @@ public class Reunion {
 		this.descripcion = descripcion;
 	}
 
-	public String getFecha() {
-		return fecha;
-	}
-	public void setFecha(String fecha) {
-		this.fecha = fecha;
-	}
 	public String getHoraInicio() {
 		return horaInicio;
 	}

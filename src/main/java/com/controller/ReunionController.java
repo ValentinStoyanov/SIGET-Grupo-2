@@ -49,14 +49,16 @@ import com.persistence.ReunionRepository;
 		@PostMapping("create")
 	    public Reunion create(@RequestParam(name = "temas") String temas,
 	    		@RequestParam(name = "descripcion") String descripcion,
-	    		@RequestParam(name = "fecha") String fecha,
-	    		@RequestParam(name = "hora_inicio") String hora_inicio,
-	    		@RequestParam(name = "hora_fin") String hora_fin,
+	    		//@RequestParam(name = "fecha") String fecha,
+	    		@RequestParam(name = "horaInicio") String horaInicio,
+	    		@RequestParam(name = "horaFin") String horaFin,
 	    		@RequestParam(name = "asistentes") String[] asistentes,
 	    		@RequestParam(name = "convocante") String convocante){
 
-	        return this.reunionRepository.insert(new Reunion(temas,descripcion,fecha,hora_inicio,
-					hora_fin,asistentes,convocante));
+//	        return this.reunionRepository.insert(new Reunion(temas,descripcion,fecha,horaInicio,
+//					horaFin,asistentes,convocante));
+	        return this.reunionRepository.insert(new Reunion(temas,descripcion,horaInicio,
+					horaFin,asistentes,convocante));
 	    }
 		
 		

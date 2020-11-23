@@ -1,5 +1,6 @@
 language: java
 script:
-- cd SIGET_Grupo_2
 - mvn clean install
-- mvn test 
+- mvn test
+before_install:
+  - chmod +x mvnw

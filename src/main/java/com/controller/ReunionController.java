@@ -49,14 +49,10 @@ import com.persistence.ReunionRepository;
 		@PostMapping("create")
 	    public Reunion create(@RequestParam(name = "temas") String temas,
 	    		@RequestParam(name = "descripcion") String descripcion,
-	    		//@RequestParam(name = "fecha") String fecha,
 	    		@RequestParam(name = "horaInicio") String horaInicio,
 	    		@RequestParam(name = "horaFin") String horaFin,
 	    		@RequestParam(name = "asistentes") String[] asistentes,
 	    		@RequestParam(name = "convocante") String convocante){
-
-//	        return this.reunionRepository.insert(new Reunion(temas,descripcion,fecha,horaInicio,
-//					horaFin,asistentes,convocante));
 	        return this.reunionRepository.insert(new Reunion(temas,descripcion,horaInicio,
 					horaFin,asistentes,convocante));
 	    }
@@ -69,6 +65,22 @@ import com.persistence.ReunionRepository;
 			
 	        if(!reunion.toString().equals("Optional.empty")) {
 	        	this.reunionRepository.deleteByHoraInicio(horaInicio);
+	        	return true;
+	        }
+	        return false;
+	    }
+		
+		@PostMapping("update")
+		public boolean update(@RequestParam(name = "temas") String temas,
+	    		@RequestParam(name = "descripcion") String descripcion,
+	    		@RequestParam(name = "horaInicio") String horaInicio,
+	    		@RequestParam(name = "horaFin") String horaFin,
+	    		@RequestParam(name = "asistentes") String[] asistentes,
+	    		@RequestParam(name = "convocante") String convocante){
+	        if(this.reunionRepository.existsById(horaInicio)) {
+	        	this.reunionRepository.deleteById(horaInicio);
+	        	this.reunionRepository.insert(new Reunion(temas,descripcion,horaInicio,
+						horaFin,asistentes,convocante));
 	        	return true;
 	        }
 	        return false;
